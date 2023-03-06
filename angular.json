@@ -128,8 +128,8 @@
           "builder": "@cypress/schematic:cypress",
           "options": {
             "devServerTarget": "angular-aws-test:serve",
-            "watch": true,
-            "headless": false
+            "watch": false,
+            "headless": true
           },
           "configurations": {
             "production": {
